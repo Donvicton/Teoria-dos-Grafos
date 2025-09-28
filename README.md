@@ -14,12 +14,12 @@ Grafo direcionado com pesos positivos/negativos. Calcular o menor custo de energ
 Grid com obstáculos e custos diferentes. Encontrar o menor caminho de S a G e o custo total.
 
  **Como executar**:
-Baixe os arquivos e execute os codigos dentro de suas respectivas pastas, para testar um novo grafo compativel, basta copiar o grafo para dentro da pasta do cenario desejado e renomear o arquivo com o mesmo nome do grafo que ja existe na pasta.
+Baixe os arquivos e execute os códigos dentro de suas respectivas pastas. Para testar um novo grafo compatível, basta copiá-lo para dentro da pasta do cenário desejado e renomear o arquivo com o mesmo nome do grafo que já existe na pasta.
 
 **Comparativo (Teoria x Implementação)**:
 
 Foi feito um comparativo entre o pseudocódigo apresentado em sala e a implementação em Python.
-Esse comparativo pode ser encontrado no arquivo COMPARATIVO.md
+Esse comparativo pode ser encontrado na pasta junto ao código.
 .
 
  **Participantes**
