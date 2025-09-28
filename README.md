@@ -24,6 +24,6 @@ Esse comparativo pode ser encontrado na pasta junto ao código.
 
  **Participantes**
 
-Donvicton Monteiro de Araujo;
+Donvicton Monteiro de Araujo
 
 Ricardo Pinto
