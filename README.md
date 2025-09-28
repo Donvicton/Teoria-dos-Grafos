@@ -1,6 +1,6 @@
-Este repositório contém a implementação da Prática 1 - Grafos, cujo objetivo é explorar o conceito de caminho mínimo utilizando diferentes algoritmos de grafos estudados em sala, como Dijkstra, Bellman-Ford e Floyd-Warshall.
+**Este repositório contém a implementação da Prática 1 - Grafos, cujo objetivo é explorar o conceito de caminho mínimo utilizando diferentes algoritmos de grafos estudados em sala, como Dijkstra, Bellman-Ford e Floyd-Warshall.**
 
-A atividade foi dividida em três cenários distintos, cada um com suas particularidades e objetivos.
+**A atividade foi dividida em três cenários distintos, cada um com suas particularidades e objetivos.**
 
 **Cenários da Atividade**
 
