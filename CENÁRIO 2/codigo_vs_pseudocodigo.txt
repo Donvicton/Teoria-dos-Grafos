@@ -1,7 +1,7 @@
 Comparativo: Implementação do Bellman-Ford vs. Pseudocódigo
 ============================================================
 
-1. O Ponto de Partida: A Inicialização
+1. A Inicialização
 
 Tanto o pseudocódigo quanto a implementação em Python partem do mesmo princípio fundamental.
 
@@ -10,7 +10,7 @@ Pseudocódigo: Estabelece as condições iniciais: a distância até o vértice 
 Implementação em Python: O código reflete essa regra de forma idêntica. Ele utiliza um dicionário `distancias` que é preenchido com `float('inf')` (o equivalente computacional de infinito) e define a distância do `no_inicio` como 0. Um segundo dicionário, `antecessores`, guarda os nós anteriores e começa preenchido com `None`. A correspondência aqui é direta e literal.
 
 
-2. O Coração do Algoritmo: O Loop Principal
+2. Loop Principal
 
 É aqui que a implementação prática se distingue da descrição teórica, de uma maneira fundamental.
 
@@ -24,7 +24,7 @@ Implementação em Python: A implementação adota a estrutura padrão e determi
 Por que essa diferença? A teoria garante que o caminho mais curto, se não houver ciclos negativos, não pode ter mais do que `V-1` arestas. Ao repetir o processo de verificação para todas as arestas por `V-1` vezes, o algoritmo garante que as distâncias mínimas se propaguem corretamente por todo o grafo, da origem até o vértice mais distante.
 
 
-3. A Lógica Central: O "Relaxamento" das Arestas
+3. A Lógica Central
 
 Neste ponto, a implementação e o pseudocódigo voltam a ser espelhos um do outro.
 
@@ -37,3 +37,4 @@ Implementação em Python: O bloco `if` dentro do loop principal é uma traduç�
 Conclusão
 
 Assim como na análise anterior, o código em Python para o Bellman-Ford é uma evolução da teoria apresentada. Ele preserva a lógica essencial de inicialização e relaxamento do pseudocódigo, mas substitui a estrutura de loop conceitual (`enquanto`) por uma abordagem determinística e eficiente (`for` loop de V-1 iterações), que é a forma padrão pela qual o algoritmo de Bellman-Ford é implementado na prática para garantir tanto a correção quanto a sua finalização.
+
