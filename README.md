@@ -20,7 +20,7 @@ Baixe os arquivos e execute os códigos dentro de suas respectivas pastas. Para 
 
 Foi feito um comparativo entre o pseudocódigo apresentado em sala e a implementação em Python.
 Esse comparativo pode ser encontrado na pasta junto ao código.
-.
+
 
  **Participantes**
 
