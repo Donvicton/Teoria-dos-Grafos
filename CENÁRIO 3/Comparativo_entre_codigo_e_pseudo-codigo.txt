@@ -1,11 +1,11 @@
-1. O Ponto de Partida: A Inicialização
+1. A Inicialização
 
 O pseudocódigo estabelece o básico: a distância até o ponto de partida é zero, e para todos os outros lugares, é infinita até que se prove o contrário. O código Python espelha isso perfeitamente com o dicionário `distancias`.
 
 A primeira grande diferença na implementação moderna aparece aqui. Enquanto o pseudocódigo fala de um conjunto 'A' com todos os nós "abertos" (a visitar), o código Python já começa com uma `fila_prioridade`. Isso é mais que um detalhe; é uma otimização crucial que define a performance de todo o algoritmo, pois garante que o próximo nó a ser verificado seja sempre o mais promissor (o de menor custo), sem precisar varrer uma lista inteira.
 
 
-2. O Coração do Algoritmo: O Loop Principal
+2. O Loop Principal
 
 Ambos os textos descrevem um loop que roda enquanto ainda houver nós para verificar. O ponto central é como o "melhor" próximo nó é escolhido.
 
@@ -14,7 +14,7 @@ O pseudocódigo descreve essa etapa como "achar o vértice 'r' com a distância 
 É aqui que a `fila_prioridade` do Python brilha. A linha `heapq.heappop(fila_prioridade)` faz exatamente a mesma coisa, mas de forma muito mais inteligente e rápida (complexidade O(log N)). Ela simplesmente pega o elemento de menor custo do topo da fila. Essa única linha é o coração da otimização da implementação.
 
 
-3. Explorando o Terreno: Vizinhos e Atualizações
+3. Vizinhos e Atualizações
 
 Uma vez que temos o nó atual, precisamos olhar ao redor. O pseudocódigo chama os vizinhos de "sucessores". No contexto do grid do nosso código, os sucessores são simplesmente as células adjacentes, que são convenientemente definidas na lista `movimentos`.
 
@@ -24,3 +24,4 @@ A lógica de atualização, conhecida como "relaxamento", é idêntica. O códig
 Conclusão
 ---------
 No fim das contas, o código em Python não é apenas uma tradução literal do pseudocódigo: é uma evolução. Ele captura a essência e a lógica pura do algoritmo de Dijkstra e a implementa de uma forma que não é só correta, mas também eficiente para um cenário prático. A troca de uma busca linear por uma fila de prioridade é o exemplo perfeito de como um bom desenvolvedor adapta a teoria clássica usando as ferramentas certas para o trabalho.
+
